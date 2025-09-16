@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Prevent horizontal scroll everywhere */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Optional: Ensure all elements don't exceed viewport width */
+* {
+  max-width: 100vw;
+  box-sizing: border-box;
+}
